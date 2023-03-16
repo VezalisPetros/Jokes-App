@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+}
+
+body{
+  font-family: sans-serif;
+  background: radial-gradient(circle, #1c4e82 10%, transparent 11%),radial-gradient(circle at bottom left, #1c4e82 5%, transparent 6%),radial-gradient(circle at bottom right, #1c4e82 5%, transparent 6%),radial-gradient(circle at top left, #1c4e82 5%, transparent 6%),radial-gradient(circle at top right, #1c4e82 5%, transparent 6%);
+  background-size: 3em 3em;
+  background-color: #2e2a2a;
+  opacity: 1;
+}
+
+.app{
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color:whitesmoke;
+  background-color: #1c4e82;
+  height: 10vh;
+  border-radius: 6rem 0rem;
+  box-shadow:0 5px 5px rgba(0, 0, 0, 0.8);
+
+ 
+
+}
+
+.container{
+  background-color: #2e2a2a;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 5vh;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  box-shadow:0 10px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 3rem;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+background-color: #1c4e82;
+  height: 80%;
+  margin: 20px;
+  border-radius: 5rem;
+  box-shadow:6px 10px 10px rgba(0, 0, 0, 0.8);
+  color: whitesmoke;
+  width: 90%;
+  position: relative
+
+}
+
+.setup{
+  padding: 20px;
+  font-style: italic;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.btn-newJoke{
+    margin: 50px;
+    position: absolute;
+    bottom: 20px;
+    padding: 20px;
+    width: 40%;
+    box-shadow:2px 5px 5px 5px rgba(0, 0, 0, 0.8);
+    background-color: #2e2a2a;
+    border:none;
+    border-radius: 1rem;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.btn-newJoke:active{
+  transform: scale(1.1);
+}
+.btn-newJoke:hover{
+  box-shadow:6px 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.btn-showPunchiline{
+  margin: 20px;
+  padding: 10px;
+  width: 20%;
+  box-shadow:2px 5px 5px 5px rgba(0, 0, 0, 0.8);
+  background-color: #2e2a2a;
+  border:none;
+  border-radius: 1rem;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
